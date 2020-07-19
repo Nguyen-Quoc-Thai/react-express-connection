@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 62.5%;
+}
+
+.container{
+    width: 50rem;
+    margin-top: 2rem;
+
+}
+
+.products{
+    width: 100%;
+
+    border: 1px solid;
+}
+
+.product__column{
+    width: 100%;
+}
+
+.product__key{
+    width: calc(100%/3);
+}
